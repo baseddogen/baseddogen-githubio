@@ -1,0 +1,37 @@
+{
+    "fires-2020" : {
+        "files": {
+            "august-19-2020": null,
+            "sep-6-2020": null,
+            "sep-7-2020": null,
+            "sep-8-2020": null,
+            "sep-9-2020": null,
+            "sep-10-2020": null,
+            "sep-11-2020": null,
+            "sep-12-2020": null,
+            "sep-13-2020": null
+        },
+        "name": "Fires not in Oregon"
+    },
+    "oregon-fires-2020" : {
+        "files": {
+            "sep-2-2020": null,
+            "sep-6-2020": null,
+            "sep-7-2020": null,
+            "sep-8-2020": null,
+            "sep-9-2020": null,
+            "sep-10-2020": null,
+            "sep-11-2020": null,
+            "sep-12-2020": null,
+            "sep-13-2020": null
+        },
+        "name": "Oregon Fires"
+    },
+    "undetermined-fires-2020" : {
+        "files": {
+            "sep-10-2020": null,
+            "sep-12-2020": null
+        },
+        "name": "Undetermined Sources of Arson"
+    }
+}
