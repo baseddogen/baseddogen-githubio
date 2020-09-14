@@ -14,11 +14,11 @@
           <template v-for="(day, date) in block['files']">
             <template v-for="post in day">
               <div :id=post.id style="width: 550px; margin: 10px; display:flex; justify-content: flex-end">
-                  <div style="background-color: 'blue'">
-                    <h1>
+                  <div style="position: relative">
+                    <h1 style="margin-bottom: 50px">
                       {{post.title}}
                       <div class="dropdown">
-                        <button class="dropbtn">Archives</button>
+                        <button class="dropbtn"><img src="/static/img/icons/archive-131965017300175986_32.ico" /></button>
                         <div class="dropdown-content">
                           <template v-for="link in post.archives">
                           <a :href="link.url">{{ link.source }} @ {{ link.archiver }} </a>
@@ -107,17 +107,18 @@ a {
 
  /* Dropdown Button */
 .dropbtn {
-  background-color: #4c8baf;
+  background-color: white;
   color: white;
   padding: 2px 4px 2px 4px;
   font-size: 16px;
-  border: none;
+  border: 2px solid black;
+  border-radius: 2em;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  right: 0px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -125,7 +126,6 @@ a {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   font-size: 26px;
