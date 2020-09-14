@@ -35,6 +35,16 @@
         },
         "name": "Undetermined Sources of Arson"
     },
+    "probable-misinformation-2020" : {
+        "files": {
+            "about-antifa": null,
+            "about-qanon": null,
+            "about-proud-boys": null,
+            "about-extremism": null
+        },
+        "name": "Likely Misinformation",
+        "description": "Information presented to potentially 'poison the well', etc."
+    },
     "pedos-2020" : {
         "files": {
             "sep-13-2020": null
