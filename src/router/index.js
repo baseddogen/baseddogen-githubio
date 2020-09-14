@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import ViewTag from '@/components/ViewTag'
 import ViewTagByDate from '@/components/ViewTagByDate'
+import ViewPostByDateIndex from '@/components/ViewPostByDateIndex'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
@@ -25,6 +26,11 @@ export default new Router({
       path: '/tag/:id/date/:date',
       name: 'ViewTagByDate',
       component: ViewTagByDate
+    },
+    {
+      path: '/tag/:tag/date/:date/:index',
+      name: 'ViewPostByDateIndex',
+      component: ViewPostByDateIndex
     }
   ]
 })

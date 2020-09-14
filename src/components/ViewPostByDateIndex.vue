@@ -2,26 +2,19 @@
   <div class="viewtag">
     <template v-if="loaded === true" >
       <h1>
-        <a :href="`/#/tag/${$route.params.id}`">
-        {{ info[$route.params.id].name }}
+        <a :href="`/#/tag/${$route.params.tag}`">
+        {{ info[$route.params.tag].name }}
         </a>
         >
         {{ $route.params.date }}
       </h1>
-      <div style=" flex-direction: row; flex-wrap: wrap; display: flex;">
-    
-      <template v-for="(block, index) in info">
-          <template v-for="(day, date) in block['files']">
-            <template v-for="post in day">
-              <div :id=post.id style="width: 550px; margin: 10px;">
-                  <div style="background-color: 'blue'">
-                    <h1>{{post.title}}</h1>
-                    <Tweet :id="`${post.id}`" :options="{ tweetLimit: '1' }">Loading...</Tweet>
-                  </div>
-              </div>
-            </template>
-          </template>
-      </template>
+      <div style=" flex-direction: row; flex-wrap: wrap; display: flex;">    
+        <div :id=this.post.id style="width: 550px; margin: 10px;">
+            <div style="background-color: 'blue'">
+              <h2>{{this.post.title}}</h2>
+              <Tweet :id="`${this.post.id}`" :options="{ tweetLimit: '1' }">Loading...</Tweet>
+            </div>
+        </div>
       </div>
     </template>
     <template v-else>
@@ -38,15 +31,17 @@ export default {
   data () {
     return {
       info: null,
-      loaded: false
+      loaded: false,
+      post: null
     }
   },
   components: {
     Tweet
   },
   mounted () {
-    const id = this.$route.params.id
+    const tag = this.$route.params.tag
     const date = this.$route.params.date
+    const postIndex = this.$route.params.index
 
     axios
       .get('/static/db/db.json')
@@ -54,9 +49,9 @@ export default {
         let info = response.data
         console.log(this.info)
         axios
-          .get(`/static/db/${id}/${date}.json`)
+          .get(`/static/db/${tag}/${date}.json`)
           .then(response => {
-            info[id]['files'][date] = response.data
+            info[tag]['files'][date] = response.data
           })
           .catch(error => {
             console.log(error)
@@ -64,6 +59,8 @@ export default {
           })
           .finally(() => {
             this.info = info
+            console.log(info[tag]['files'][date])
+            this.post = info[tag]['files'][date][postIndex]
             this.loaded = true
           })
       })
@@ -71,7 +68,6 @@ export default {
         console.log(error)
         this.errored = true
       })
-      .finally(() => (this.msg = false))
   }
 }
 </script>
