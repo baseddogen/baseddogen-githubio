@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import ArchivedTweet from 'ArchivedTweet'
 import axios from 'axios'
+import ArchivedTweet from '@/components/ArchivedTweet'
 export default {
   name: 'hello',
   data () {
@@ -67,48 +67,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-
- /* Dropdown Button */
-.dropbtn {
-  background-color: #4c8baf;
-  color: white;
-  padding: 2px 4px 2px 4px;
-  font-size: 16px;
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  font-size: 26px;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #579bc2;} 
-
 h1, h2 {
   font-weight: normal;
 }

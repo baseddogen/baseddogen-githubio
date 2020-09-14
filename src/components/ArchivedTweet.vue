@@ -1,15 +1,15 @@
 <template>
   <div class="viewtag">
-    <div :id=$params.post.id style="width: 550px; margin: 10px; display:flex; justify-content: flex-end">
+    <div :id=$props.post.id style="width: 550px; margin: 10px; display:flex; justify-content: flex-end">
         <div style="position: relative">
             <h1 style="margin-bottom: 50px">
-                {{$params.post.title}}
+                {{$props.post.title}}
                 <div class="dropdown">
                     <button class="dropbtn">
                         <img src="/static/img/icons/archive-131965017300175986_32.ico" />
                     </button>
                     <div class="dropdown-content">
-                        <template v-for="(link, index) in $params.post.archives">
+                        <template v-for="(link, index) in $props.post.archives">
                             <a :key=index :href="link.url"> {{ link.source }} @ {{ link.archiver }} </a>
                         </template>
                     </div>
@@ -23,11 +23,13 @@
 
 <script>
 import { Tweet } from 'vue-tweet-embed'
-import axios from 'axios'
 export default {
   name: 'ArchivedTweet',
   components: {
     Tweet
+  },
+  props: {
+    post: {type: Object}
   }
 }
 </script>
@@ -58,8 +60,6 @@ a {
   color: white;
   padding: 2px 4px 2px 4px;
   font-size: 16px;
-  border: 2px solid black;
-  border-radius: 2em;
 }
 
 /* The container <div> - needed to position the dropdown content */
