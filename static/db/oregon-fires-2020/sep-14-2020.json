@@ -7,5 +7,14 @@
             {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/E5X3k"},
             {"type": "article", "source": "Portland Police Bureau", "archiver": "archive.today", "url": "https://archive.vn/f3GLb"}
         ]
+    },
+    {
+        "title": "Domingo Lopez admitting he used Molotov cocktail to start brush fire in Portland",
+        "url": "https://twitter.com/coramdeoconser1/status/1305538888778350593",
+        "id": "1305538888778350593",
+        "archives": [
+            {"type": "article", "source": "KATU2", "archiver": "archive.today", "url": "https://archive.vn/kdDIf"},
+            {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/nhsb4"}
+        ]
     }
 ]
