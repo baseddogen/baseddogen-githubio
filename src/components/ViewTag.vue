@@ -10,9 +10,9 @@
           </a>
             <template v-for="(post, postIndex) in day">
               <div>
-              <a :href="`/#/tag/${$route.params.id}/date/${date}/${postIndex}`">
-                {{post.title}}
-              </a>
+                <a :href="`/#/tag/${$route.params.id}/date/${date}/${postIndex}`">
+                  {{post.title}}
+                </a>
               </div>
             </template>
         </div>

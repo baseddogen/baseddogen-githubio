@@ -8,14 +8,7 @@
         >
         {{ $route.params.date }}
       </h1>
-      <div style=" flex-direction: row; flex-wrap: wrap; display: flex;">    
-        <div :id=this.post.id style="width: 550px; margin: 10px;">
-            <div style="background-color: 'blue'">
-              <h2>{{this.post.title}}</h2>
-              <Tweet :id="`${this.post.id}`" :options="{ tweetLimit: '1' }">Loading...</Tweet>
-            </div>
-        </div>
-      </div>
+      <ArchivedTweet :post=this.post></ArchivedTweet>
     </template>
     <template v-else>
       <img src="https://icon-library.com/images/loading-icon-animated-gif/loading-icon-animated-gif-19.jpg"></img>
@@ -24,8 +17,8 @@
 </template>
 
 <script>
-import { Tweet } from 'vue-tweet-embed'
 import axios from 'axios'
+import ArchivedTweet from '@/components/ArchivedTweet'
 export default {
   name: 'hello',
   data () {
@@ -36,7 +29,7 @@ export default {
     }
   },
   components: {
-    Tweet
+    ArchivedTweet
   },
   mounted () {
     const tag = this.$route.params.tag
