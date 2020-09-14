@@ -9,8 +9,8 @@
                         <img src="/static/img/icons/archive-131965017300175986_32.ico" />
                     </button>
                     <div class="dropdown-content">
-                        <template v-for="link in $params.post.archives">
-                            <a :href="link.url"> {{ link.source }} @ {{ link.archiver }} </a>
+                        <template v-for="(link, index) in $params.post.archives">
+                            <a :key=index :href="link.url"> {{ link.source }} @ {{ link.archiver }} </a>
                         </template>
                     </div>
                 </div>
