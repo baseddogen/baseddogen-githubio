@@ -13,9 +13,19 @@
       <template v-for="(block, index) in info">
           <template v-for="(day, date) in block['files']">
             <template v-for="post in day">
-              <div :id=post.id style="width: 550px; margin: 10px;">
+              <div :id=post.id style="width: 550px; margin: 10px; display:flex; justify-content: flex-end">
                   <div style="background-color: 'blue'">
-                    <h1>{{post.title}}</h1>
+                    <h1>
+                      {{post.title}}
+                      <div class="dropdown">
+                        <button class="dropbtn">Archives</button>
+                        <div class="dropdown-content">
+                          <template v-for="link in post.archives">
+                          <a :href="link.url">{{ link.source }} @ {{ link.archiver }} </a>
+                          </template>
+                        </div>
+                      </div>
+                    </h1>
                     <Tweet :id="`${post.id}`" :options="{ tweetLimit: '1' }">Loading...</Tweet>
                   </div>
               </div>
@@ -71,7 +81,6 @@ export default {
         console.log(error)
         this.errored = true
       })
-      .finally(() => (this.msg = false))
   }
 }
 </script>
@@ -95,4 +104,47 @@ li {
 a {
   color: #35495E;
 }
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #4c8baf;
+  color: white;
+  padding: 2px 4px 2px 4px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 26px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #579bc2;} 
 </style>

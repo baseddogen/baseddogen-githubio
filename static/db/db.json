@@ -33,5 +33,11 @@
             "sep-12-2020": null
         },
         "name": "Undetermined Sources of Arson"
-    }
+    },
+    "pedos-2020" : {
+        "files": {
+            "sep-13-2020": null
+        },
+        "name": "Pedo stings"
+    }  
 }

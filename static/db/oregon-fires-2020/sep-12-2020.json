@@ -3,24 +3,37 @@
         "title": "Inappropriate comments made by Clackamas Patrol deputy",
         "url": "https://twitter.com/ClackCoSheriff/status/1304843782207094784",
         "id": "1304843782207094784",
-        "archives": ["https://archive.vn/ZKHip"]
+        "archives": [
+            {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/ZKHip"}
+        ]
     },
     {
         "title": "Oregon fire marshal Jim Walker abruptly resigns after being put on leave amid historic wildfires",
         "url": "https://twitter.com/BasedDogen/status/1304919846170193920",
         "id": "1304919846170193920",
-        "archives": ["https://archive.vn/iB6KV"]
+        "archives": [
+            {"type": "article", "source": "OREGONLIVE", "archiver": "archive.today", "url": "https://archive.vn/iB6KV"},
+            {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/wip/gLNKM"}
+        ]
+    },
+    {
+        "title": "41-year-old man charged with arson in an Oregon fire",
+        "url": "https://twitter.com/KatieDaviscourt/status/1304869121583013889",
+        "id": "1304869121583013889",
+        "archives": [
+            {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/cghSS"},
+            {"type": "article", "source": "ABC News", "archiver": "archive.today", "url": "https://archive.vn/c2UYA"}
+        ]
     },
     {
         "title": "44-year-old man charged with arson in an Oregon fire",
         "url": "https://twitter.com/thehill/status/1304934082237919232",
         "id": "1304934082237919232",
-        "archives": ["https://archive.vn/6s9sG"]
-    }
-    {
-        "title": "41-year-old man charged with arson in an Oregon fire",
-        "url": "https://twitter.com/thehill/status/1304934082237919232",
-        "id": "1304934082237919232",
-        "archives": ["https://archive.vn/c2UYA"]
+        "archives": [
+            {"type": "social", "source": "Twitter", "archiver": "web.archive.org", "url": "https://web.archive.org/web/20200914022510/https://twitter.com/thehill/status/1304934082237919232"},
+            {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/rG9FT"},
+            {"type": "article", "source": "THE HILL", "archiver": "web.archive.org", "url": "https://web.archive.org/web/20200914022743/https://thehill.com/homenews/state-watch/516158-44-year-old-man-charged-with-arson-in-oregon-fire,"},
+            {"type": "article", "source": "THE HILL", "archiver": "archive.today", "url": "https://archive.vn/6s9sG#selection-1145.0-1145.52"}
+        ]
     }
 ]

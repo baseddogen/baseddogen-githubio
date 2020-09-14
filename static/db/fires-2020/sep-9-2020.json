@@ -3,12 +3,12 @@
         "title": "Washington Earlier in the day, Jeffrey Acord called in his own arson",
         "url": "https://twitter.com/KatieDaviscourt/status/1303896536451964928",
         "id": "1303896536451964928",
-        "archives": ["https://archive.vn/9zRgD"]
+        "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/9zRgD"}]
     },
     {
         "title": "California Charges include gun, drug, and bomb making materials",
         "url": "https://twitter.com/MaderaSheriff/status/1303893538837495808",
         "id": "1303893538837495808",
-        "archives": ["https://archive.vn/Vhw11"]
+        "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/Vhw11"}]
     }
 ]

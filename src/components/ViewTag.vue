@@ -45,23 +45,19 @@ export default {
       .get('/static/db/db.json')
       .then(response => {
         let info = response.data
-        console.log(info)
-        console.log(id)
-        console.log(info[id])
-        Object.keys(info[id].files).forEach(date => {
-          axios
-            .get(`/static/db/${id}/${date}.json`)
-            .then(response => {
-              info[id]['files'][date] = response.data
-            })
-            .catch(error => {
-              console.log(error)
-              this.errored = true
-            })
-            .finally(() => {
-              this.info = info
-              this.loaded = true
-            })
+        // prepare to request all relevant files
+        const dates = Object.keys(info[id].files)
+        const requests = dates.map(date => axios.get(`/static/db/${id}/${date}.json`))
+        Promise.all(requests).then(responses => {
+          // if file is poorly formatted, responses might not be in JSON
+          responses.forEach(({data}, index) => {
+            console.log(data)
+            console.log(index)
+            info[id]['files'][dates[index]] = data
+          })
+          // send data off to be rendered
+          this.info = info
+          this.loaded = true
         })
       })
       .catch(error => {
