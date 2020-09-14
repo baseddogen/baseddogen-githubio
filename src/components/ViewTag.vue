@@ -3,6 +3,10 @@
     <template v-if="loaded === true" >
 
     <h1> {{ info[$route.params.id].name }} </h1>
+      <p>
+        {{ info[$route.params.id].description }}
+      </p>
+
       <template v-for="(day, date) in info[$route.params.id]['files']">
         <div>
           <a :href="`/#/tag/${$route.params.id}/date/${date}`">

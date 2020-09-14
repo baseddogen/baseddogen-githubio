@@ -10,11 +10,12 @@
                     </button>
                     <div class="dropdown-content">
                         <template v-for="(link, index) in $props.post.archives">
-                            <a :key=index :href="link.url"> {{ link.source }} @ {{ link.archiver }} </a>
+                            <a :key=index :href="link.url"> <div> {{ link.source }} </div> <div> {{ link.archiver }} </div> </a>
                         </template>
                     </div>
                 </div>
             </h1>
+            <p>{{$props.post.description}}</p>
             <Tweet :id="`${post.id}`" :options="{ tweetLimit: '1' }">Loading...</Tweet>
         </div>
     </div>
