@@ -9,7 +9,8 @@
             "sep-10-2020": null,
             "sep-11-2020": null,
             "sep-12-2020": null,
-            "sep-13-2020": null
+            "sep-13-2020": null,
+            "sep-14-2020": null
         },
         "name": "Fires not in Oregon"
     },
@@ -31,7 +32,8 @@
     "undetermined-fires-2020" : {
         "files": {
             "sep-10-2020": null,
-            "sep-12-2020": null
+            "sep-12-2020": null,
+            "sep-14-2020": null
         },
         "name": "Undetermined Sources of Arson"
     },
