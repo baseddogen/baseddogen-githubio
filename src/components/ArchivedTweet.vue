@@ -1,6 +1,6 @@
 <template>
   <div class="viewtag">
-    <div :id=$props.post.id style="width: 550px; margin: 10px; display:flex; justify-content: flex-end">
+    <div :id=$props.post.id style="max-width: 550px; margin: 10px; display:flex; justify-content: flex-start">
         <div style="position: relative">
             <h1 style="margin-bottom: 50px">
                 {{$props.post.title}}
@@ -66,7 +66,7 @@ a {
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: absolute;
-  right: 0px;
+  left: 0px;
 }
 
 /* Dropdown Content (Hidden by Default) */

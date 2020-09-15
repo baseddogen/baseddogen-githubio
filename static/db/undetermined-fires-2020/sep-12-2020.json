@@ -3,6 +3,6 @@
         "title": "Man scene in Auburn, WA with a chainsaw pushing an Oil Drum. Auburn Police Department has been called and is responding.",
         "url": "https://twitter.com/KatieDaviscourt/status/1304890956773126144",
         "id": "1304890956773126144",
-        "archives": ["https://archive.vn/MtDS4"]
+        "archives": [ { "type": "social", "source": "Twitter", "archiver": "archive.org", "url": "https://archive.vn/MtDS4" } ] 
     }
 ]

@@ -16,5 +16,14 @@
             {"type": "article", "source": "KATU2", "archiver": "archive.today", "url": "https://archive.vn/kdDIf"},
             {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/nhsb4"}
         ]
-    }
+    },
+    { 
+        "title": "The Linn County Sheriff’s Office is investigating a string of suspicious fires in rural areas near Sweet Home and Brownsville", 
+        "url": "https://twitter.com/gtnews/status/1305644783910752264", 
+        "id": "1305644783910752264", 
+        "archives": [
+            { "type": "article", "source": "Gazette Times", "archiver": "archive.today", "url": "https://archive.vn/EeHUd" } 
+        ]
+    },
+    { "title": "[Can't Confirm] This is the guy that intentionally set a fire just now.", "url": "https://twitter.com/peabodyfmdev/status/1305637478011817984", "id": "1305637478011817984", "archives": [ { "type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/Jot1u" }, { "type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/Jot1u" } ] } 
 ]
