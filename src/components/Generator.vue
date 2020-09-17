@@ -46,6 +46,9 @@
                                     <br>
                                         <input type="radio" id="article" value="article" v-model="archive.type">
                                         <label for="article"><p>article</p></label>
+                                    <br>
+                                        <input type="radio" id="image" value="image" v-model="archive.type">
+                                        <label for="image"><p>image</p></label>
                                     <br>        
                                 </div>
                                 <div>

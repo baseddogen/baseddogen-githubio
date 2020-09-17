@@ -49,8 +49,16 @@
     },
     "pedos-2020" : {
         "files": {
-            "sep-13-2020": null
+            "sep-12-2020": null,
+            "sep-13-2020": null,
+            "2020": null
         },
-        "name": "Pedo stings"
-    }  
+        "name": "Pedo Watch"
+    },
+    "sedition-2020" : {
+        "files": {
+            "sep-16-2020": null
+        },
+        "name": "Sedition"
+    }
 }
