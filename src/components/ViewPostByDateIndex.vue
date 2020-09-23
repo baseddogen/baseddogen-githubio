@@ -17,50 +17,20 @@
 </template>
 
 <script>
-import axios from 'axios'
 import ArchivedTweet from '@/components/ArchivedTweet'
+import db from '../../static/db/db.json'
+
 export default {
   name: 'hello',
   data () {
     return {
-      info: null,
-      loaded: false,
-      post: null
+      info: db,
+      loaded: true,
+      post: db[this.$route.params.tag]['files'][this.$route.params.date][this.$route.params.index]
     }
   },
   components: {
     ArchivedTweet
-  },
-  mounted () {
-    const tag = this.$route.params.tag
-    const date = this.$route.params.date
-    const postIndex = this.$route.params.index
-
-    axios
-      .get('/static/db/db.json')
-      .then(response => {
-        let info = response.data
-        console.log(this.info)
-        axios
-          .get(`/static/db/${tag}/${date}.json`)
-          .then(response => {
-            info[tag]['files'][date] = response.data
-          })
-          .catch(error => {
-            console.log(error)
-            this.errored = true
-          })
-          .finally(() => {
-            this.info = info
-            console.log(info[tag]['files'][date])
-            this.post = info[tag]['files'][date][postIndex]
-            this.loaded = true
-          })
-      })
-      .catch(error => {
-        console.log(error)
-        this.errored = true
-      })
   }
 }
 </script>

@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-    <template v-for="(files, tag) in info">
-      <h1>
-          <a style="text-decoration: none;" :href="`/#/tag/${tag}`">
-            {{info[tag].name}}
+    <template v-for="(entry, index) in info">
+      <h1 :key=index>
+          <a style="text-decoration: none;" :href="`/#/tag/${entry.database}`">
+            {{entry.name}}
           </a>
       </h1>
     </template>
@@ -12,30 +12,17 @@
 
 <script>
 import { Tweet } from 'vue-tweet-embed'
-import axios from 'axios'
+import db from '../../static/db/db.json'
 export default {
   name: 'hello',
   data () {
     return {
       msg: '',
-      info: null
+      info: db
     }
   },
   components: {
     Tweet
-  },
-  mounted () {
-    axios
-      .get('/static/db/db.json')
-      .then(response => {
-        this.info = response.data
-        console.log(this.info)
-      })
-      .catch(error => {
-        console.log(error)
-        this.errored = true
-      })
-      .finally(() => (this.msg = false))
   }
 }
 </script>

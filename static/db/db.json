@@ -1,64 +1,503 @@
 {
     "fires-2020" : {
-        "files": {
-            "august-19-2020": null,
-            "sep-6-2020": null,
-            "sep-7-2020": null,
-            "sep-8-2020": null,
-            "sep-9-2020": null,
-            "sep-10-2020": null,
-            "sep-11-2020": null,
-            "sep-12-2020": null,
-            "sep-13-2020": null,
-            "sep-14-2020": null
-        },
-        "name": "Fires not in Oregon"
+        "database": "fires-2020",
+        "name": "Fires not in Oregon",
+        "files": 
+        {
+            "august-19-2020": 
+            [
+                {
+                    "title": "LYNNWOOD, WA The power pole that had fallen had been cut.",
+                    "url": "https://twitter.com/KatieDaviscourt/status/1304150993127391232",
+                    "id": "1304150993127391232",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/oFvGF"}, 
+                        {"type": "article", "source": "K5", "archiver": "archive.today", "url": "https://archive.vn/TqII4"}]
+                }
+            ],
+            "sep-6-2020": 
+            [
+                {
+                    "title": "A witness said that the first of 4 explosions shook her entire house",
+                    "url": "https://twitter.com/TheScoopUSA/status/1302836891813806080",
+                    "id": "1302836891813806080",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/8a1KZ"}]
+                },
+                {
+                    "title": "officials say \"a smoke generating pyrotechnic device\" used during a gender reveal party caused San Bernadino County's #ElDoradoFire",
+                    "url": "https://twitter.com/abc7newsbayarea/status/1302815249196752902",
+                    "id": "1302815249196752902",
+                    "archives": [{"type": "article", "source": "ABC7", "archiver": "archive.today", "url": "https://archive.vn/B66I4"}]
+                }
+            ],
+            "sep-7-2020": 
+            [
+            ],
+            "sep-8-2020": 
+            [
+                {
+                    "title": "Florida Sheriff's Department said GTFO at least 5 explosions and more expected",
+                    "url": "https://twitter.com/RainbowEnthusi1/status/1303353309311496194",
+                    "id": "1303353309311496194",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/4myda"}]
+                },
+                {
+                    "title": "Woman arrested after starting multiple fires in Spokane, Washington",
+                    "url": "https://twitter.com/Grape_Draaank/status/1304137073004130304",
+                    "id": "1304137073004130304",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/ohuc1"}, 
+                        {"type": "article", "source": "KHQQ6", "archiver": "archive.today", "url": "https://archive.vn/4mLJT"}]
+                }
+            ],
+            "sep-9-2020": 
+            [
+                {
+                    "title": "Washington Earlier in the day, Jeffrey Acord called in his own arson",
+                    "url": "https://twitter.com/KatieDaviscourt/status/1303896536451964928",
+                    "id": "1303896536451964928",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/9zRgD"}]
+                },
+                {
+                    "title": "California Charges include gun, drug, and bomb making materials",
+                    "url": "https://twitter.com/MaderaSheriff/status/1303893538837495808",
+                    "id": "1303893538837495808",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/Vhw11"}]
+                }
+            ],
+            "sep-10-2020": 
+            [
+                {
+                    "title": "KUTV 2News - ARSON Manti-La Sal",
+                    "url": "https://twitter.com/JerryH90517797/status/1304456649294270464",
+                    "id": "1304456649294270464",
+                    "archives": [{"type": "article", "source": "KUTV2", "archiver": "archive.today", "url": "https://archive.vn/Gc5Gu"}]
+                },
+                {
+                    "title": "Washington A pedestrian decided to match light the grass at SR-512 and SR-7.",
+                    "url": "https://twitter.com/wspd1pio/status/1304147032844632064",
+                    "id": "1304147032844632064",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/sLZRa"},
+                        {"type": "article", "source": "KOIN6", "archiver": "archive.today", "url": "https://archive.vn/vFpHa"}
+                    ]
+                }
+            ],
+            "sep-11-2020": 
+            [
+                {
+                    "title": "Woman arrested for setting fires along Hwy 101 in Salinas, California",
+                    "url": "https://twitter.com/Grape_Draaank/status/1304135319457939456",
+                    "id": "1304135319457939456",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/mE8wI"}, 
+                        {"type": "article", "source": "KOIN5/46", "archiver": "archive.today", "url": "https://archive.vn/1Bpj3"}
+                    ]
+                }
+            ],
+            "sep-12-2020": 
+            [
+            ],
+            "sep-13-2020": 
+            [
+                {
+                    "title": "Washington Sheriff says he doesn't know what started the massive Cold Springs fire, but it wasn't antifa",
+                    "url": "https://twitter.com/Grape_Draaank/status/1305700633421344768",
+                    "id": "1305700633421344768",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/jJ3uV"}, 
+                        {"type": "article", "source": "wenatcheeworld.com", "archiver": "archive.today", "url": "https://archive.vn/wyIHB"}
+                    ]
+                }
+            ],
+            "sep-14-2020": 
+            [
+                {
+                    "title": "Kelso, WA: A man starting a fire in shrubs in a residential area caught on security camera.",
+                    "url": "https://twitter.com/ClownWorldNews1/status/1305644823517392897",
+                    "id": "1305644823517392897",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/wip/ho93H"}
+                    ]
+                }
+            ]
+        }
     },
-    "oregon-fires-2020" : {
-        "files": {
-            "sep-2-2020": null,
-            "sep-6-2020": null,
-            "sep-7-2020": null,
-            "sep-8-2020": null,
-            "sep-9-2020": null,
-            "sep-10-2020": null,
-            "sep-11-2020": null,
-            "sep-12-2020": null,
-            "sep-13-2020": null,
-            "sep-14-2020": null
-        },
-        "name": "Oregon Fires"
+    "oregon-fires-2020": {
+        "database": "oregon-fires-2020",
+        "name": "Oregon Fires",
+        "files": 
+        {
+            "sep-2-2020":[
+                {
+                    "title": "Man arrested on arson allegation in wildfire west of Eugene",
+                    "url": "https://twitter.com/BasedDogen/status/1303917837551976448",
+                    "id": "1303917837551976448",
+                    "archives": [{"type": "article", "source": "KMTR16", "archiver": "archive.today", "url": "http://archive.today/wJ1XR"}]
+                }
+            ],
+            "sep-6-2020":[
+            ],
+            "sep-7-2020":[
+                {
+                    "title": "Fire at abandoned building burns 12 acres in Oregon City",
+                    "url": "https://twitter.com/BasedDogen/status/1303435717507313664",
+                    "id": "1303435717507313664",
+                    "archive": [{"type": "article", "source": "KOIN6", "archiver": "archive.today", "url": "https://archive.vn/5bMyN"}]
+                }
+            ],
+            "sep-8-2020":[
+            ],
+            "sep-9-2020":[
+                {
+                    "title": "Man seen starting fires at Oregon state park, fire chief says",
+                    "url": "https://twitter.com/BasedDogen/status/1303917372906954752",
+                    "id": "1303917372906954752",
+                    "archives": [{"type": "article", "source": "KMTR16", "archiver": "archive.today", "url": "https://archive.vn/gZ6Ct"}]
+                },
+                {
+                    "title": "Twitter, I need the social justice warriors. This imbecile on my snap that I know is a local to S. OR is lighting off mortars in the midst of this",
+                    "url": "https://twitter.com/delRo618/status/1303928574949220352",
+                    "id": "1303928574949220352",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/CHy1S"}]
+                },
+                {
+                    "title": "RV emitting sparks starts brush fire off Hwy 213 in Oregon City (not pallet fire)",
+                    "url": "https://twitter.com/fox12oregon/status/1303695836870782977",
+                    "id": "1303695836870782977",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "https://archive.vn/Rc2Vb"}, 
+                        {"type": "article", "source": "FOX12", "archiver": "archive.today", "url": "https://archive.vn/tE2xd"}
+                    ]
+                }
+            ],
+            "sep-10-2020":[
+                {
+                    "title": "Law enforcement sources telling me Oregon State Police & Clackamas County Sheriff's Office received information that people are calling 911 to report that some people with out-of-state plates are attempting to light gasoline canisters on fire.",
+                    "url": "https://twitter.com/MrAndyNgo/status/1304206833209417728",
+                    "id": "1304206833209417728",
+                    "archives": [{ "type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/AtCTB"}]
+                },
+                {
+                    "title": "Friends hubby is a pdx fireman",
+                    "url": "https://twitter.com/JerryH90517797/status/1304209539923767297",
+                    "id": "1304209539923767297",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/cVCvD"}]
+                },
+                {
+                    "title": "We are in Clackamas County, OR.  Major evacuations.  They just implemented a curfew for tonight.",
+                    "url": "https://twitter.com/farmflowersOR/status/1304285888336158721",
+                    "id": "1304285888336158721",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/P7x30"}]
+                },
+                {
+                    "title": "Residential fire in Jennings, Clackamas",
+                    "url": "https://twitter.com/canofcorn10/status/1304283239415123969",
+                    "id": "1304283239415123969",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/D2ONF"}]
+                },
+                {
+                    "title": "Reported Looting in evacuated homes in Blue River, Oregon",
+                    "url": "https://twitter.com/Grape_Draaank/status/1304332868609482757",
+                    "id": "1304332868609482757",
+                    "archives": [{"type": "article", "source": "KEZI9", "archiver": "archive.today", "url": "https://archive.vn/VsftS"}]
+                },
+                {
+                    "title": "Criminal investigation into start of Alameda Fire",
+                    "url": "https://twitter.com/KatieDaviscourt/status/1304295117529001984",
+                    "id": "1304295117529001984",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/UPLLr"},
+                        {"type": "article", "source": "FOX12", "archiver": "archive.today", "url": "https://archive.vn/3VybV"}
+                    ]
+                },
+                {
+                    "title": "Lincoln City fire human caused",
+                    "url": "https://twitter.com/Grape_Draaank/status/1304146280164151296",
+                    "id": "1304146280164151296",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/QJ4z6"}, 
+                        {"type": "article", "source": "OREGONLIVE", "archiver": "archive.today", "url": "https://archive.vn/AEQgp"}
+                    ]
+                }
+            ],
+            "sep-11-2020":[
+                {
+                    "title": "#Oregon authorities open \"arson probe\"",
+                    "url": "https://twitter.com/SVNewsAlerts/status/1304465746806935552",
+                    "id": "1304465746806935552",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/uBqEG"}
+                    ]
+                },
+                {
+                    "title": "Deputies found fireworks...",
+                    "url": "https://twitter.com/MultCoSO/status/1304577271429099520",
+                    "id": "1304577271429099520",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/Uz3Eu"}]
+                },
+                {
+                    "title": "My son just told me law enforcement & the reserves are being deployed to evacuated areas",
+                    "url": "https://twitter.com/livright7/status/1304599894837977089",
+                    "id": "1304599894837977089",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/z4QQB"}]
+                },
+                {
+                    "title": "Jett Thomas, 36, has been arrested in Portland & charged w/1st-degree felony arson",
+                    "url": "https://twitter.com/MrAndyNgo/status/1304602426821849090",
+                    "id": "1304602426821849090",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/zOoai"}]
+                },
+                {
+                    "title": "Klacamas County Officers are ARRESTING people who are intentionally setting fires in Oregon",
+                    "url": "https://twitter.com/familyman20181/status/1304476463924641794",
+                    "id": "1304476463924641794",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/Uy9H2"}]
+                },
+                {
+                    "title": "Sheriff deputy said f ANTIFA",
+                    "url": "https://twitter.com/PoorRichard1705/status/1304622813307793409",
+                    "id": "1304622813307793409",
+                    "archives": [{"type": "video", "source": "Youtube", "archiver": "bitchute.com", "url": "https://www.bitchute.com/video/yOOJABxJO8ra/"}]
+                },
+                {
+                    "title": "I found this individual walking on my property",
+                    "url": "https://twitter.com/nashvillian17/status/1304685351223676928",
+                    "id": "1304685351223676928",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/77KQ3"}]
+                },
+                {
+                    "title": "There is a militia stopping cars on Larch Mountain, who claim they have stopped 5 vehicles without license plates",
+                    "url": "https://twitter.com/ClownWorldNews1/status/1304661517644648448",
+                    "id": "1304661517644648448",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/o636v"}]
+                },
+                {
+                    "title": "A man was caught in Sandy, OR pulling gas cans out of his pickup",
+                    "url": "https://twitter.com/ClownWorldNews1/status/1304662387643920385",
+                    "id": "1304662387643920385",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/9BCJJ"}]
+                },
+                {
+                    "title": "Wildfire looters caught in Detroit, Oregon.",
+                    "url": "https://twitter.com/Grape_Draaank/status/1304327234992234497",
+                    "id": "1304327234992234497",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/WTkjJ"}, 
+                        {"type": "article", "source": "statesman journal", "archiver": "archive.today", "url": "https://archive.vn/eQ8HB"}]
+                },    
+                {
+                    "title": "Stayton, Oregon where people have put up \"looters will be shot on sight\" signs",
+                    "url": "https://twitter.com/shane_burley1/status/1304519947310125056",
+                    "id": "1304519947310125056",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/xZVQI"}]
+                },
+                {
+                    "title": "7 or 8 arrested for looting in Jackson County, Oregon.",
+                    "url": "https://twitter.com/Grape_Draaank/status/1304671722801565696",
+                    "id": "1304671722801565696",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/jPSyZ"}, 
+                        {"type": "article", "source": "Jefferson Public Radio", "archiver": "archive.today", "url": "https://archive.vn/BRQO8"}
+                    ]
+                },
+                {
+                    "title": "The fire Bakkela set is considered to be one of two origins of the Almeda fire",
+                    "url": "https://twitter.com/BasedDogen/status/1305315104070594560",
+                    "id": "1305315104070594560",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/FRyvt"}, 
+                        {"type": "article", "source": "OREGONLIVE", "archiver": "archive.today", "url": "https://archive.vn/hQMDa"}
+                    ]
+                }
+            ],
+            "sep-12-2020":[
+                {
+                    "title": "Inappropriate comments made by Clackamas Patrol deputy",
+                    "url": "https://twitter.com/ClackCoSheriff/status/1304843782207094784",
+                    "id": "1304843782207094784",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/ZKHip"}
+                    ]
+                },
+                {
+                    "title": "Oregon fire marshal Jim Walker abruptly resigns after being put on leave amid historic wildfires",
+                    "url": "https://twitter.com/BasedDogen/status/1304919846170193920",
+                    "id": "1304919846170193920",
+                    "archives": [
+                        {"type": "article", "source": "OREGONLIVE", "archiver": "archive.today", "url": "https://archive.vn/iB6KV"},
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/wip/gLNKM"}
+                    ]
+                },
+                {
+                    "title": "41-year-old man charged with arson in an Oregon fire",
+                    "url": "https://twitter.com/KatieDaviscourt/status/1304869121583013889",
+                    "id": "1304869121583013889",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/cghSS"},
+                        {"type": "article", "source": "ABC News", "archiver": "archive.today", "url": "https://archive.vn/c2UYA"}
+                    ]
+                },
+                {
+                    "title": "44-year-old man charged with arson in an Oregon fire",
+                    "url": "https://twitter.com/thehill/status/1304934082237919232",
+                    "id": "1304934082237919232",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "web.archive.org", "url": "https://web.archive.org/web/20200914022510/https://twitter.com/thehill/status/1304934082237919232"},
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/rG9FT"},
+                        {"type": "article", "source": "THE HILL", "archiver": "web.archive.org", "url": "https://web.archive.org/web/20200914022743/https://thehill.com/homenews/state-watch/516158-44-year-old-man-charged-with-arson-in-oregon-fire,"},
+                        {"type": "article", "source": "THE HILL", "archiver": "archive.today", "url": "https://archive.vn/6s9sG#selection-1145.0-1145.52"}
+                    ]
+                }
+            ],
+            "sep-13-2020":[
+                {
+                    "title": "New. Full video (enhanced audio) of woman stopping arsonist in Oregon.",
+                    "url": "https://twitter.com/ClownWorldNews1/status/1305063867479810048",
+                    "id": "1305063867479810048",
+                    "archives": [{"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/VX4Jh"}]
+                }
+            ],
+            "sep-14-2020":[
+                {
+                    "title": "Domingo Lopez Jr. allegedly started six more fires along the west side of the I-205 freeway",
+                    "url": "https://twitter.com/ClownWorldNews1/status/1305554742471323649",
+                    "id": "1305554742471323649",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/E5X3k"},
+                        {"type": "article", "source": "Portland Police Bureau", "archiver": "archive.today", "url": "https://archive.vn/f3GLb"}
+                    ]
+                },
+                {
+                    "title": "Domingo Lopez admitting he used Molotov cocktail to start brush fire in Portland",
+                    "url": "https://twitter.com/coramdeoconser1/status/1305538888778350593",
+                    "id": "1305538888778350593",
+                    "archives": [
+                        {"type": "article", "source": "KATU2", "archiver": "archive.today", "url": "https://archive.vn/kdDIf"},
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/nhsb4"}
+                    ]
+                },
+                { 
+                    "title": "The Linn County Sheriff’s Office is investigating a string of suspicious fires in rural areas near Sweet Home and Brownsville", 
+                    "url": "https://twitter.com/gtnews/status/1305644783910752264", 
+                    "id": "1305644783910752264", 
+                    "archives": [
+                        { "type": "article", "source": "Gazette Times", "archiver": "archive.today", "url": "https://archive.vn/EeHUd" } 
+                    ]
+                },
+                { "title": "[Can't Confirm] This is the guy that intentionally set a fire just now.", "url": "https://twitter.com/peabodyfmdev/status/1305637478011817984", "id": "1305637478011817984", "archives": [ { "type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/Jot1u" }, { "type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/Jot1u" } ] } 
+            ]
+        }
     },
-    "undetermined-fires-2020" : {
+    "undetermined-fires-2020": {
+        "database": "undetermined-fires-2020",
+        "name": "Undetermined Sources of Arson",
         "files": {
-            "sep-10-2020": null,
-            "sep-12-2020": null,
-            "sep-14-2020": null
-        },
-        "name": "Undetermined Sources of Arson"
+            "sep-10-2020":[
+                {
+                    "title": "Heard over the Police Scanner: “Suspicious Vehicle (Subaru) With Texas Plates Throwing Molotov Cocktails.”",
+                    "url": "https://twitter.com/KatieDaviscourt/status/1304278521049612289",
+                    "id": "1304278521049612289",
+                    "archives": [ { "type": "social", "source": "Twitter", "archiver": "archive.org", "url": "https://archive.vn/UPLLr" } ]
+                },
+                {
+                    "title": "A bystander witnessed a couple throw an incendiary device out of their vehicle in brush nearby the Target",
+                    "url": "https://twitter.com/KatieDaviscourt/status/1303953050277523456",
+                    "id": "1303953050277523456",
+                    "archives": [ { "type": "social", "source": "Twitter", "archiver": "archive.org", "url": "https://archive.vn/MtDS4" } ]
+                }
+            ],
+            "sep-12-2020":[
+                {
+                    "title": "Man scene in Auburn, WA with a chainsaw pushing an Oil Drum. Auburn Police Department has been called and is responding.",
+                    "url": "https://twitter.com/KatieDaviscourt/status/1304890956773126144",
+                    "id": "1304890956773126144",
+                    "archives": [ { "type": "social", "source": "Twitter", "archiver": "archive.org", "url": "https://archive.vn/MtDS4" } ] 
+                }
+            ],
+            "sep-14-2020":[
+                {
+                    "title": "Never piss off /pol/ - Potential Antifa BLM identification",
+                    "url": "https://twitter.com/RiotofRock14/status/1305697880817111042",
+                    "id": "1305697880817111042",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/YKltq"}
+                    ]
+                }
+            ]
+        }
     },
-    "probable-misinformation-2020" : {
-        "files": {
-            "about-antifa": null,
-            "about-qanon": null,
-            "about-proud-boys": null,
-            "about-extremism": null
-        },
+    "probable-misinformation-2020": {
+        "database": "probable-misinformation-2020",
         "name": "Likely Misinformation",
-        "description": "Information presented to potentially 'poison the well', etc."
-    },
-    "pedos-2020" : {
+        "description": "Information presented to potentially 'poison the well', etc.",
         "files": {
-            "sep-12-2020": null,
-            "sep-13-2020": null,
-            "2020": null
-        },
-        "name": "Pedo Watch"
-    },
-    "sedition-2020" : {
+            "about-antifa": [
+                {
+                    "title": "Scarsdale Antifa collaborated to ignite fires",
+                    "description": "One of few viral posts that has been circulating.",
+                    "url": "https://twitter.com/HusbandDadLife/status/1304592684582088706",
+                    "id": "1304592684582088706",
+                    "archives": [
+                        {"type": "social", "source": "Twitter", "archiver": "archive.today", "url": "https://archive.vn/wip/zfOFJ"}
+                    ]
+                }
+            ],
+            "about-extremism": [
+                {
+                    "title": "Reports that extremists are setting wildfires in Oregon are untrue",
+                    "description": "Post seems rushed. Agent is a Comey appointee.",
+                    "url": "https://twitter.com/FBIPortland/status/1304485033210769409",
+                    "id": "1304485033210769409",
+                    "archives": [
+                        {"type": "social", "source": "Twitter @FBIPortland", "archiver": "archive.today", "url": "https://archive.vn/lDnst"},
+                        {"type": "article", "source": "fbi.gov", "archiver": "archive.today", "url": "https://archive.vn/x8vxN"}
+                    ]
+                }
+            ],
+            "about-proud-boys": [],
+            "about-qanon": [
+                {
+                    "title": "Netflix faces its QAnon moment as lawmakers push to investigate \"Cuties\"",
+                    "url": "https://twitter.com/oneunderscore__/status/1305598729999790080",
+                    "description": "Axios leveraging political division and QAnon, is deemed 'credible'",
+                    "id": "1305598729999790080",
+                    "archives": [
+                        {"type": "article", "source": "Axios", "archiver": "archive.today", "url": "https://archive.vn/HWior"},
+                        {"type": "article", "source": "Axios[R]", "archiver": "archive.today", "url": "https://archive.vn/aqiGL"},
+                        {"type": "social", "source": "Twitter Ben Collins", "archiver": "archive.today", "url": "https://archive.vn/gVOqW"},
+                        {"type": "rating", "source": "mediabiasfactcheck.com", "archiver": "archive.today", "url": "https://archive.vn/DMnbc"},
+                        {"type": "rating", "source": "adfontesmedia.com", "archiver": "archive.today", "url": "https://archive.vn/wip/xdF2G"}
+                    ]
+                }
+            ]
+        }
+}   ,
+    "pedos-2020": {
+        "database": "pedos-2020",
+        "name": "Pedo Watch",
         "files": {
-            "sep-16-2020": null
-        },
-        "name": "Sedition"
+            "2020": [ { "title": "[FBI] #TheFinders was declassified late last year", "url": "https://twitter.com/watchfulwatcher/status/1305929468058492937", "id": "1305929468058492937", "archives": [ { "type": "social", "source": "Twitter", "archiver": "archive.org", "url": "https://archive.vn/NsyqQ" }, { "type": "article", "source": "vault.fbi.gov", "archiver": "archive.today", "url": "https://archive.vn/sKZRI" } ] } ] ,
+            "sep-12-2020": [{ "title": "Vaush supports pedophilia and legalizing child pornography.", "url": "https://twitter.com/stillgray/status/1304928390089117696", "id": "1304928390089117696", "archives": [] }]
+            ,
+            "sep-13-2020": [
+                {
+                    "title": "[Ongoing] “Operation Home Alone 2” resulted in the arrests of 5 men",
+                    "url": "https://twitter.com/EpochTimes/status/1305320364415889408",
+                    "id": "1305320364415889408",
+                    "archives": [
+                        {"source": "twitter", "archiver": "archive.today", "url": "https://archive.vn/uUq7g"}, 
+                        {"source": "epoch times", "archiver": "archive.today", "url": "https://archive.vn/UxLwC"}
+                    ]
+                }
+            ]
+        }
+    },
+    "sedition-2020": {
+        "database": "sedition-2020",
+        "name": "Sedition",
+        "files": {
+            "sep-16-2020": [ { "title": "AG Bill Barr Asked Federal Prosecutors to Consider Bringing Criminal Charges Against Seattle Mayor Jenny Durkan", "url": "https://twitter.com/Lane21402092/status/1306495821748133889", "id": "1306495821748133889", "archives": [ { "type": "article", "source": "Gateway Pundit", "archiver": "archive.today", "url": "https://archive.vn/WOdpd" } ] } ] 
+        }
     }
 }
